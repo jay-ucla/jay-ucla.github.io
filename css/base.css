@@ -151,7 +151,7 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 	.block-post.single blockquote, .post-title h4, .post-title a, .work  .item a .desc h5 span, .filter li a, .block-quote .block-profile, .listing-large  a
 	,.listing-large .listing-event .data.right li:nth-child(2) ul li, .timeline .timeline-inner .name span.date, .page-number , .listing .listing-event .data li, .listing  a
 	, .main-nav ul li, 	h1, h2, h3, h4, h5, h6, .but span, .author a  {
-		/*font-family: "Helvetica","Arial",sans-serif;*/
+		font-family: "Roboto Slab","Helvetica","Arial",sans-serif;
 	}
 	
 	
