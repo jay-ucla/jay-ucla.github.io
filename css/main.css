@@ -131,16 +131,16 @@
 }
 
 .img-profile .name-profile{
-	background:#3f3f3f;
-	padding:5px 0;
+	background:#2e2e2e;
+	padding:8px 0;
 	margin-bottom:1px;
 }
 
 
 .img-profile .name-profile h5{
 	color:#e8e8e8;
-	font-weight: 700;
-	font-size:13px;
+	font-weight: 501;
+	font-size:15px;
 	display:block;
 }
 
@@ -347,7 +347,7 @@
 
 
 .right-content.col-md-9{
-	width: 76%;
+	width: 84%;
 }
 
 
