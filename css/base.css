@@ -89,10 +89,13 @@ iframe{width:100%;frameborder:0;display:inline-block;}
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 		margin:0;
+		background:white;
 		
 		
  }
-
+html, body{
+	height:100%;
+}
 
 /* #Typography and #Common style
 ================================================== */
