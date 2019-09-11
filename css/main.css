@@ -520,7 +520,7 @@ img.signature{
 
 .timeline:after {
     background-color: #eaeaea;
-    content: " ";
+    content:none;
     height: 100%;
    	left: 49.9%;
     position: absolute;
@@ -573,11 +573,13 @@ img.signature{
 }
 
 .timeline .timeline-inner .detail {
-    margin-left: 41%;
+    margin-left: 42%;
     padding-left: 94px;
     position: relative;
 	text-align:left;
 	width:56%;
+	color:black;
+	font-size:initial;
 }
 
 .timeline .timeline-inner .name h4 {
@@ -1660,7 +1662,7 @@ ul.hb-list li h6 {
 	.listing,.listing-large, .timeline{padding:0;margin-top:0 !important;}
 	.listing:after, .listing-inner:before, .listing-inner:after, .timeline:after, .timeline .timeline-inner .name:before, .listing-large-inner:before,
 	.listing-large-inner:after, .listing-large:after, .services:before, .services:after, .filter li:not(:last-child):after, .main-nav ul li:first-child:after{content:none;}
-	.listing .listing-event .data.left{width:35%;margin-left: 5%;padding-right:0;}
+	.listing .listing-event .data.left{width:35%;margin-left: 5%;padding-right:0;}	
 	.insta-Feed li, .insta-Feed li a{width:18%;}
 	.timeline .timeline-inner .name{margin-bottom:5px !important;}
 	.timeline .timeline-inner .name, .timeline .timeline-inner .detail{width:auto;padding:0;margin:0;text-align:left;float:none;}
