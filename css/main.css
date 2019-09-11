@@ -25,6 +25,9 @@
 
 /** Preloader **/
 
+strong{
+font-weight:bold !important;
+}
 .loader {
     background: #eaeaea;
     bottom: 0;
@@ -634,7 +637,7 @@ img.signature{
 
 .listing-large:after {
     background-color: #eaeaea;
-    content: " ";
+    content: none;
     height: 100%;
    	left: 49.9%;
     position: absolute;
@@ -710,6 +713,8 @@ img.signature{
 
 .listing-large .listing-event .data.right li:nth-child(2) ul li {
 	font-weight: 400;
+	display:flex;
+	margin-bottom:5px;
 	font-size:15px;
 }
 
@@ -718,12 +723,13 @@ img.signature{
 	font-weight: 300;
 	font-size:14px;
 	margin-left:2px;
+	margin-right:5px;
 }
 
 .listing-large .listing-event .data.right h5 {
 	font-size: 15px;
     font-weight: 700;
-	margin-bottom:20px;
+	margin-bottom:10px;
 }
 
 
