@@ -28,6 +28,18 @@
 strong{
 font-weight:bold !important;
 }
+.tech-tag{
+	background: #ffd42d;
+    /* padding: 2px 7px; */
+    /* border-radius: 8%; */
+    /* font-size: 14px; */
+    padding: 3px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right:7px;
+    display: inline-flex;
+    margin-bottom: 2px;
+}
 .loader {
     background: #eaeaea;
     bottom: 0;
