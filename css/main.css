@@ -27,9 +27,20 @@
 .projectright{
     margin-left: 12.10% !important;
     width: 90% !important;
-    z-index: -1;
-    border-left: 1px solid #999;
     padding-bottom: 20px;
+}
+.name{
+	width:15% !important;
+}
+.name::after {
+    border-left: 1px solid #999;
+    content: ' ';
+    position: absolute;
+    right: -1.55em;
+    width: 1px;
+    height: 10000px;
+    top: 0;
+    z-index: -1;
 }
 strong{
 font-weight:bold !important;
