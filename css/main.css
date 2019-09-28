@@ -25,11 +25,23 @@
 
 /** Preloader **/
 .projectright{
-    margin-left: 12.10% !important;
-    width: 90% !important;
-    z-index: -1;
-    border-left: 1px solid #999;
+    margin-left: 15% !important;
+    width: 75% !important;
     padding-bottom: 20px;
+    padding-left: 75px !important;
+}
+.projectleft{
+	width:15% !important;
+}
+.projectleft::after {
+    border-left: 1px solid #999;
+    content: ' ';
+    position: absolute;
+    right: -1.55em;
+    width: 1px;
+    height: 1000px;
+    top: 0;
+    z-index: -1;
 }
 strong{
 font-weight:bold !important;
